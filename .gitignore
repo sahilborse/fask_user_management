@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+
+# Flask instance folder
+instance/
+
+# Environment variable files
+.env
+
+# MySQL database files (if using local database files, adjust path accordingly)
+*.sql
+*.sqlite
+
+# Flask specific files
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
